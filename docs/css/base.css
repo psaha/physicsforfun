@@ -1,0 +1,81 @@
+body {
+    background: #FFFFE0;
+    background: lemon;
+    padding: .1em 4em 1em 4em;
+    color: black; 
+    max-height: 100%;
+    font-family: Georgia , "Times New Roman", serif;
+    font-size: 1.1em;
+    line-height: 150% ;
+}
+
+a { font-style: italic ; font-weight: normal; text-decoration: none ; }
+
+a:link    { color: blue; }
+a:visited { color: rgb(106,90,205); }
+a:hover   { color: blue;  text-decoration: underline }
+a:active  { color: blue; }
+
+h1, h2, h3, h4, h5 { 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-style: normal;
+}
+
+h1 { font-size: 2em ;  line-height: 150% ;
+     margin-top: 1em ; margin-bottom: 1em ; 
+     text-align: center;
+}
+
+h2 { font-size: 1.5em ;
+     margin-top: 2em ; text-align: center;
+}
+
+h3 { font-size: 1.2em ;
+     margin-top: 1em ;
+}
+
+
+.floatleft { float: left }
+
+.floatright { float: right }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.nav { font-family: "Trebuchet MS", Helvetica, sans-serif;
+       font-style: normal; font-size: .8em;
+}
+
+.date { font-family: "Trebuchet MS", Helvetica, sans-serif;
+        font-style: normal; font-size: .8em; text-align: right
+}
+
+.box {
+ display: block;
+ padding: 0.5em 1em;
+ border: 1px solid #bebab0;
+ background: lemonchiffon;
+}
+
+code { font-size: 1.2em ;
+}
+
+pre {
+ font-size: 1.2em ;
+ line-height: 120% ;
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -o-pre-wrap;
+ background: #faf8f0;
+ display: block;
+ padding: 0.5em 1em;
+ border: 1px solid #bebab0;
+}
+
+
+
+
